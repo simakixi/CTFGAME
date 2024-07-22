@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="display">
+        <p id="title">CTF RPG</p>
+        <label id="revivaltext">ふっかつのじゅもんを　いれてください</label>
+        <input type="text" id="revival" autocomplete="off">
+        <button id="first">最初から</button>
+        <button id="decision2">決定</button>
+        <p id="setname" class="hidden">名前を入力してください</p>
+        <input type="text" id="name" class="hidden" autocomplete="off" placeholder="1～4文字" maxlength="4">
+        <button id="return" class="hidden">戻る</button>
+        <button id="decision" class="hidden">決定</button>
+        <p id="warning2" class="hidden">※これは注意書きです</p>
+        <canvas id="GAME" width="800" height="800"></canvas>
+
+        <div id="status" class="hidden">
+            <p id="playername">name</p>
+            <p id="level">LEVEL：1　GOLD：0</p>
+            <p id="HP">HP：</p>
+            <p id="STR">STR：</p>
+            <p id="DEF">DEF：</p>
+            <p id="XP">XP：</p>
+        </div>
+        <canvas id="battlefield" width="800" height="800"></canvas>
+        <div id="battletext" class="hidden">
+            <p id="fight">こうげき</p>
+            <p id="highfight">急所突き</p>
+            <p id="posion">回復</p>
+            <p id="escape">にげる</p>
+        </div>
+        <div id="battlesituation" class="hidden">
+            <p id="battletext1"></p>
+            <p id="battletext2"></p>
+            <p id="battletext3"></p>
+            <p id="battletext4"></p>
+            <p id="battletext5">　　　　　　　　　　　　　　　　　　</p>
+        </div>
+        <div id="nowsituation" class="hidden">
+            <p id="nowstatus"></p>
+            <p>　　　　　　　　　　</p>
+        </div>
+        <div id="menu" class="hidden">
+            <p id="shop">ショップ</p>
+            <p id="operationguid">操作ガイド</p>
+            <p id="tips">魔法の紙片</p>
+            <p id="flag">フラグ</p>
+            <p id="save">セーブ</p>
+            <p id="end">ゲームを終了</p>
+        </div>
+        <div id="guid" class="hidden">
+            <p>マップ操作</p>
+            <p>→：次のステージへ</p>
+            <p>←：前のステージへ</p>
+            <p>space：戦闘開始</p>
+            <p>Tab：メニューを開く</p>
+            <p>　</p>
+            <p>メニュー操作</p>
+            <p>↓：次の項目に移動する</p>
+            <p>↑：前の項目に移動する</p>
+            <p>space：選択する</p>
+            <p>Tab：メニューを閉じる</p>
+            <p>　</p>
+            <p>ショップ操作</p>
+            <p>↓：次の項目に移動する</p>
+            <p>↑：前の項目に移動する</p>
+            <p>space：購入する</p>
+            <p>Tab：ショップを閉じる</p>
+            <p>　</p>
+            <p>戦闘操作</p>
+            <p>↓：次の項目に移動する</p>
+            <p>↑：前の項目に移動する</p>
+            <p>space：選択する</p>
+            <p>　</p>
+            <p>とじるにはTabを押してください</p>
+        </div>
+        <div id="shopmenu" class="hidden">
+            <p id="warning" class="hidden">GOLDが足りません</p>
+            <p id="shop1">装備アップグレード(100GOLD)</p>
+            <p id="shop2">ポーション(50GOLD)</p>
+            <p id="endshop">ショップを閉じる</p>
+        </div>
+        <div id="savespell" class="hidden">
+            <p>＜ふっかつのじゅもん＞</p>
+            <p id="revivalspell"></p>
+            <p class="Air">　</p>
+            <p>とじるにはTabを押してください</p>
+        </div>
+        <div id="flagdisplay" class="hidden">
+            <p>【FLAG】</p>
+            <p id="flagtext"></p>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

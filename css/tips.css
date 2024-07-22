@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.bit th, .bit td {
+    border: 1px dashed black;
+    padding: 15px;
+    text-align: center;
+    width: 20px;
+    height: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    background: #4D9BC1;
+    border: 2px solid #4D9BC1;
+    padding: 1em 2em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.3s;
+    position: relative;
+}
+
+button:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    margin-top: -6px;
+}
+
+button:hover {
+    background: #fff;
+    color: #4D9BC1;
+}
+
+button:hover:before {
+    border-top: 2px solid #4D9BC1;
+    border-right: 2px solid #4D9BC1;
+}

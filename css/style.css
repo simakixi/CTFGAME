@@ -1,0 +1,345 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#revival{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#title{
+    color: white;
+    font-size: 150px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#first{
+    color: white;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 465px;
+}
+
+#first:hover{
+    color: gray;
+    border-color: gray;
+}
+
+#revival{
+    color: white;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    border-top: 2px solid transparent;
+    width: 600px;
+    height: 200px;
+    outline: none;
+}
+
+#revivaltext{
+    color: white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+.hidden{
+    display: none;
+}
+
+#setname{
+    color: white;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+
+#name{
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#decision{
+    color: white;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 200px;
+    margin-top: -57px;
+}
+
+#decision:hover{
+    color: gray;
+    border-color: gray;
+}
+
+#decision2{
+    color: white;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: black;
+    margin-top: -57px;
+}
+
+#decision2:hover{
+    color: gray;
+    border-color: gray;
+}
+
+#return{
+    color: white;
+    border: 3px solid white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: black;
+    margin-right: 200px;
+}
+
+#return:hover{
+    color: gray;
+    border-color: gray;
+}
+
+#GAME{
+    margin-top: 10px;
+}
+
+#status{
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    border: 3px solid white;
+    margin-left: -770px;
+    margin-top: -920px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+}
+
+#status p{
+    margin: -2px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#playername{
+    text-align: center;
+}
+
+#HP{
+    padding-left: 14px;
+}
+
+#posioncnt{
+    padding-left: 12px;
+}
+
+#battlefield{
+    margin-top: 850px;
+}
+
+#battletext{
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-left: -780px;
+    margin-top: -260px;
+}
+
+#battletext p{
+    margin: 0px;
+    margin-bottom: -3px;
+}
+
+#battlesituation{
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: -180px;
+}
+
+#battlesituation p{
+    margin: 0px;
+}
+
+.statusAir{
+    font-size: 4px;
+}
+
+#nowsituation{
+    z-index: 1;
+    color: white;
+    font-size: 26px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-left: -800px;
+    margin-top: -70px;
+}
+
+#menu{
+    z-index: 1;
+    color: white;
+    font-size: 26px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+    width: 220px;
+    height: 260px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#menu p{
+    margin: 0px;
+}
+
+#guid{
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -120px;
+    padding-bottom: 20px;
+}
+
+#guid p{
+    margin: 0px;
+}
+
+#shopmenu{
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#shopmenu p{
+    margin: 0px;
+}
+
+#warning{
+    color: red;
+}
+
+#warning2{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    z-index: 1;
+    color: red;
+}
+
+#savespell{
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#savespell p{
+    margin: 0px;
+    margin-bottom: -2px;
+}
+
+#revivalspell{
+    color: gold;
+}
+
+.Air{
+    font-size: 10px;
+}
+
+#tips{
+    color:gray;
+}
+
+#flag{
+    color:gray;
+}
+
+#flagdisplay{
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#flagdisplay p{
+    margin: 0px;
+}
+
+#flagtext{
+    color:yellow;
+}
